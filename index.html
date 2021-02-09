@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>  
+  <body>
+ <div id="main">
+   
+   <!-- Title / Header -->
+   <div class="title">
+     <h1>Meme Generator</h1>
+   </div>
+   
+   <!-- Form -->
+   <div id="generator">
+     <div id="top-field" class="section">
+       <h2 class="input-label">
+         Top line:
+       </h2>
+       <input type="text" id="top-text" class="input" placeholder="optional...">
+     </div>
+     <div id="bottom-field" class="section">
+       <h2 class="input-label">
+         Bottom line:
+       </h2>
+       <input type="text" id="bottom-text" class="input"  placeholder="optional...">
+     </div>
+     <div id="pic-link" class="section">
+       <h2 class="input-label">
+         Image Link:  
+       </h2>
+       <input type="text" id="image-input" class="input" >
+     </div>
+     <button id="submit-button">
+       Submit
+     </button>
+   </div>
+   
+   <!-- Where all the memes at -->
+   <div id="meme-holder">
+    <!-- added memes go here -->
+   </div>   
+ </div>
+  
+  </body>
+</html>
